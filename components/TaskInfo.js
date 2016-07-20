@@ -16,4 +16,4 @@ const TaskInfo = ({
   );
 };
 
-export TaskInfo;
+export default TaskInfo;

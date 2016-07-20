@@ -11,4 +11,4 @@ const TaskNotes = ({
   );
 };
 
-export TaskNotes;
+export default TaskNotes;

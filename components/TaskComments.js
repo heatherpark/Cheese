@@ -15,4 +15,4 @@ const TaskComments = ({
   );
 };
 
-export TaskComments;
+export default TaskComments;
