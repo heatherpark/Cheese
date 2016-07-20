@@ -1,4 +1,4 @@
-const TaskInfo = ({
+const TaskNotes = ({
   notes
 }) => {
   return (
@@ -11,4 +11,4 @@ const TaskInfo = ({
   );
 };
 
-export TaskInfo;
+export TaskNotes;

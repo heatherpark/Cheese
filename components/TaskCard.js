@@ -8,6 +8,8 @@ class TaskCard extends React.Component {
           Task Title
           Due Date
           Status
+          Category
+          Points
         </div>
         <div class="notes">
           <input className="note-input" type="text">
