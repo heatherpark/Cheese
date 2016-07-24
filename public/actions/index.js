@@ -40,5 +40,12 @@ export function fetchTasks() {
   }
 }
 
+export function changeStatus(status) {
+  return {
+    type: 'CHANGE_STATUS',
+    status
+  }
+}
+
 
 

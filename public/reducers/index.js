@@ -5,6 +5,27 @@ import {
   fetchTasks
  } from '../actions'
 
+function task(state, action) {
+  switch (action.type) {
+    case 'ADD_TODO':
+      return {
+        title: action.text,
+        status: 'To Do',
+        dueDate: action.dueDate,
+        category: action.category,
+        points: action.points,
+        owner: action.owner,
+        creator: action.creator,
+        comments: [],
+      }
+    case 'CHANGE_STATUS':
+      return Object.assign({}, state, {
+        action.status
+      })
+    default:
+      return state
+  }
+}
 
 function tasks(state = {
   isFetching: false,
