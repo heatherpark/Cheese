@@ -28,7 +28,8 @@ class TaskCard extends React.Component {
           status={task.status}
           dueDate={task.dueDate}
           category={task.category}
-          points={task.points} />
+          points={task.points}
+          owner={task.owner} />
       </div>
     );
   }
