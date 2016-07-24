@@ -20,7 +20,7 @@ const muiTheme = getMuiTheme({
 class TaskCard extends React.Component {
   render() {
     const {task} = this.props;
-
+    console.log('task: ', task.title);
     return (
       <div className="task-card-container">
         <TaskInfo

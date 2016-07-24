@@ -9,7 +9,7 @@ const TaskInfo = ({ title, status, dueDate, category, points }) => {
         <p className="due-date">Due: {dueDate}</p>
         <p className="status">{status}</p>
       </div>
-      <p className="task-title">Set up front end</p>
+      <p className="task-title">{title}</p>
       <div className="cat-pts-container">
         <p className="category">{category}</p>
         <p>&#9679;</p>
