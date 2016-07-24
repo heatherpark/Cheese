@@ -7,7 +7,7 @@ import {
 
 function task(state, action) {
   switch (action.type) {
-    case 'ADD_TODO':
+    case 'ADD_TASK':
       return {
         title: action.text,
         status: 'To Do',
