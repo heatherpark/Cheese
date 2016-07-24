@@ -50,11 +50,11 @@ export function changeStatus(status) {
 export function addTask(task) {
   return {
     type: 'ADD_TASK',
-    title
-    dueDate
-    category
-    points
-    owner
+    title,
+    dueDate,
+    category,
+    points,
+    owner,
     creator
   }
 }
