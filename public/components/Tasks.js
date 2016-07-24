@@ -351,6 +351,9 @@ class Tasks extends React.Component {
     ];
 
     function filterTasks(tasks) {
+      // store.filteredView represents the view that the user has clicked.
+      // depending on that, the items in
+      // 'tasks' will be different for each category
       if (store.filteredView === 'All') {
         tasks = tasks;
       } else {
