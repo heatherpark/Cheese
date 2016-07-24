@@ -47,6 +47,9 @@ function tasks(state = {
   }
 }
 
-const rootReducer = tasks
+const rootReducer = combineReducers({
+  task,
+  tasks
+})
 
 export default rootReducer
